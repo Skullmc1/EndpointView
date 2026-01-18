@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Viafont';
+  src: url('/Viafont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Urba';
+  src: url('/Urba.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Timeburner';
+  src: url('/timeburnernormal.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TimeburnerBold';
+  src: url('/timeburnerbold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  @apply bg-sorbet-cream text-sorbet-dark font-sans overflow-hidden;
+}
+
+/* Custom Playful Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-sorbet-pink/50 rounded-full border-[3px] border-transparent bg-clip-padding hover:bg-sorbet-red/60 transition-colors;
+}
+
+::-webkit-scrollbar-corner {
+  @apply bg-transparent;
+}
