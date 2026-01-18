@@ -7,7 +7,7 @@
 <div class="relative inline-block {className}">
   <select
     bind:value
-    class="appearance-none bg-sorbet-peach/50 border border-sorbet-pink/30 rounded-xl px-4 py-2 pr-8 text-sorbet-dark font-sans focus:outline-none focus:ring-2 focus:ring-sorbet-red/50 cursor-pointer"
+    class="appearance-none bg-sorbet-peach/70 border border-sorbet-pink/50 rounded-xl px-4 py-2 pr-8 text-sorbet-dark font-sans focus:outline-none focus:ring-2 focus:ring-sorbet-red/50 cursor-pointer"
   >
     {#each options as option}
       <option value={option}>{option}</option>

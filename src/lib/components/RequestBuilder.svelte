@@ -88,7 +88,7 @@
   }
 </script>
 
-<div class="flex flex-col h-full bg-white/40 rounded-2xl p-4 shadow-sm backdrop-blur-sm border border-white/50">
+<div class="flex flex-col h-full bg-white/70 rounded-2xl p-4 shadow-md backdrop-blur-md border border-white/60">
   <!-- Top Bar: Method + URL + Send -->
   <div class="flex gap-2 mb-4">
     <Select bind:value={$requestStore.method} options={methods} className="w-32" />
@@ -153,7 +153,7 @@
       </div>
     {:else if activeTab === 'body'}
       <div class="h-full flex flex-col">
-        <span class="text-xs font-title text-sorbet-dark/50 uppercase tracking-wider mb-2">JSON Body</span>
+        <span class="text-xs font-title text-sorbet-dark/70 uppercase tracking-wider mb-2 font-bold">JSON Body</span>
         <textarea
           bind:value={$requestStore.body}
           class="flex-1 w-full bg-white/60 border border-sorbet-pink/30 rounded-xl p-4 font-mono text-sm text-sorbet-dark focus:outline-none focus:ring-2 focus:ring-sorbet-red/50 resize-none"

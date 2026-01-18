@@ -33,7 +33,7 @@
   }
 </script>
 
-<div class="h-full flex flex-col bg-white/40 rounded-2xl shadow-sm backdrop-blur-sm border border-white/50 relative overflow-hidden group">
+<div class="h-full flex flex-col bg-white/70 rounded-2xl shadow-md backdrop-blur-md border border-white/60 relative overflow-hidden group">
   {#if $loadingStore}
     <div class="absolute inset-0 flex items-center justify-center bg-white/50 z-20 backdrop-blur-sm" transition:fade>
       <div class="flex flex-col items-center gap-4">

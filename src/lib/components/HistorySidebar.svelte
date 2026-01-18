@@ -30,9 +30,9 @@
   }
 </script>
 
-<div class="h-full flex flex-col bg-white/40 border-r border-sorbet-pink/20 w-64">
-  <div class="p-4 flex items-center justify-between border-b border-sorbet-pink/10">
-    <div class="flex items-center gap-2 text-sorbet-dark font-title text-sm">
+<div class="h-full flex flex-col bg-white/60 border-r border-sorbet-pink/30 w-64 backdrop-blur-sm">
+  <div class="p-4 flex items-center justify-between border-b border-sorbet-pink/20">
+    <div class="flex items-center gap-2 text-sorbet-dark font-title text-sm font-bold">
       <History size={16} />
       <span>HISTORY</span>
     </div>
